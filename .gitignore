@@ -70,3 +70,23 @@
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.package
 
 .flutter-plugins-dependencies
+
+# Ignore files that might contain sensitive information
+*.pem
+*.key
+*.p12
+*.pfx
+*.env
+.env*
+config.json
+secrets.json
+
+# Ignore specific files (replace with your actual filenames if known)
+facebook_app_config.json
+fb_credentials.txt
+
+# Ignore lines containing specific patterns
+*[Ff]acebook*[Aa]pp*[Kk]ey*
+*[Ff]acebook*[Aa]pp*[Ss]ecret*
+*[Ff]b*[Aa]pp*[Ii][Dd]*
+*[Ff]b*[Aa]pp*[Ss]ecret*
